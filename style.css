@@ -301,9 +301,10 @@ header {
     font-size: 2.5rem;
   }
 
-  .conhecimento-header h3 {
+  .conhecimento-header h3{
     font-family: var(--font-secundary);
     font-size: 2rem;
+    display: inline-block;
     padding-left: 1rem;
   }
 
@@ -321,4 +322,19 @@ header {
 .conhecimentos-img-wrapper img{
     object-fit: cover;
     width: 100%;
+}
+
+.projetos{
+    display: flex;
+
+}
+
+.card{
+    width: 20rem;
+    height: 30rem;
+}
+
+.card-img-wrapper{
+    width: 100%;
+    height: 100%;
 }
